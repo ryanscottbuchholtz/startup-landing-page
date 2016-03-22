@@ -93,3 +93,49 @@ body {
   background-color: darkorange; 
   cursor: pointer;
 }
+
+/*Main Content*/
+
+.main-content {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.main-content h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2.75rem;
+}
+
+.main-content-columns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.main-content-columns h3 {
+  text-align: center;
+  padding-top: 9rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.internet,
+.productivity,
+.pay {
+  width: 30%;
+  height: 8rem;
+}
+
+.internet {
+  background: url("../assets/icon-devices copy.svg") no-repeat center;
+}
+
+.productivity {
+  background: url("../assets/icon-coffee copy.svg") no-repeat center;
+}
+
+.pay {
+  background: url("../assets/icon-refill copy.svg") no-repeat center;
+}
