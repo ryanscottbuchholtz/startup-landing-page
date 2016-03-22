@@ -1,0 +1,43 @@
+/*Document*/
+
+* {
+  box-sizing: border-box;
+/*  border: 1px solid chocolate;*/
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/*Header*/
+
+.header-wrap {
+  width: 58.3%;
+  margin: 10px auto 0;
+}
+
+.nav-wrap,
+.nav-link-wrap,
+.header-wrap {
+  display: flex;
+}
+
+.logo {
+  margin-right: auto;
+  height: 39px;
+  width: auto;
+  align-self: center;
+}
+
+.nav-link-wrap li {
+  list-style: none;
+  padding-left: 32px;
+  color: #838994;
+  font-weight: 300;
+}
+
+li.active {
+  color: #4c5058;
+  font-weight: bold;
+}
