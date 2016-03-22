@@ -19,8 +19,12 @@ body {
   margin: 0;
 }
 
-ul {
+ul, {
   padding: 0;
+}
+
+h1 {
+  margin: 0;
 }
 
 /* HTML5 display definitions

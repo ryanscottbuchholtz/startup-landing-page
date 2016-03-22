@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-/*  border: 1px solid chocolate;*/
+
 }
 
 body {
@@ -10,25 +10,30 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
 
 /*Header*/
 
 .header-wrap {
   width: 58.3%;
-  margin: 10px auto 0;
+  margin: 5px auto;
+  height: 3.75rem;
 }
 
 .nav-wrap,
 .nav-link-wrap,
 .header-wrap {
   display: flex;
+  align-items: center;
 }
 
 .logo {
   margin-right: auto;
   height: 39px;
   width: auto;
-  align-self: center;
 }
 
 .nav-link-wrap li {
@@ -46,5 +51,40 @@ body {
 .nav-wrap li:hover {
   cursor: pointer;
   color: #333333;
+}
 
+/*Main Image*/
+
+.main-image {
+  background: url("../assets/first-background copy.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  height: 40rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-image h1 {
+  margin: 0;
+  font-size: 3.125rem;
+  padding-top: 11rem;
+  font-weight: 300;
+}
+
+.main-image h3 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.563em;
+  padding: .65em 0 .85em 0;
+}
+
+#learn-button {
+  background-color: #f15a29;
+  border-color: #f15a29;
+  width: 9.688rem;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  font-size: 1.125rem;
+  color: white;
 }
