@@ -88,3 +88,8 @@ body {
   font-size: 1.125rem;
   color: white;
 }
+
+#learn-button:hover {
+  background-color: darkorange; 
+  cursor: pointer;
+}
