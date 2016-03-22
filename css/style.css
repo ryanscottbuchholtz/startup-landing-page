@@ -7,6 +7,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 
@@ -34,10 +35,16 @@ body {
   list-style: none;
   padding-left: 32px;
   color: #838994;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-li.active {
+.nav-link-wrap li.active {
   color: #4c5058;
-  font-weight: bold;
+  font-weight: 500;
+}
+
+.nav-wrap li:hover {
+  cursor: pointer;
+  color: #333333;
+
 }
