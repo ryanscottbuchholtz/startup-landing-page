@@ -10,17 +10,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.clearfix {
-  overflow: auto;
-}
-
 
 /*Header*/
 
 .header-wrap {
-  width: 58.3%;
-  margin: 5px auto;
-  height: 3.75rem;
+  width: 100%;
+  margin: 0px auto;
+  height: 4.45rem;
+  position: fixed;
+  z-index: 999;
+  background-color: #ffffff;
+  padding-left: 22rem;
+  padding-right: 22rem;
 }
 
 .nav-wrap,
